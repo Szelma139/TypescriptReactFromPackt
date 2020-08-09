@@ -2,6 +2,9 @@
 import { css, jsx } from '@emotion/core'; 
 import { fontFamily, fontSize, gray1, gray2, gray5 } from './Styles';
 
+import { PrimaryButton } from './Styles';
+
+
 
 export const  HomePage=()=> {
     return (
@@ -28,7 +31,7 @@ max-width: 600px
         `}
             >
             Unanswered Questions</h2>
-            <button> Ask a question</button>
+            <PrimaryButton>Ask a question</PrimaryButton> 
             </div>
         </div>
     )
